@@ -29,8 +29,8 @@ wails-app
 - Настроить строку подключения к pq в файле wails_app/database/database.go
 -  Создать таблицу из файла 1.initial_tables.sql
 ```bash
-go install github.com/wailsapp/wails/v2/cmd/wails@latest
 git clone https://github.com/beginore/test_to_do_list.git
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
 cd wails_app
 wails dev
 ```
