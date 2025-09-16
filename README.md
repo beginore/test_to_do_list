@@ -26,11 +26,11 @@ wails-app
 ```
 
 ## Запуск
-### Настроить строку подключения к pq в файле wails_app/database/database.go
-### Создать таблицу из файла 1.initial_tables.sql
+- Настроить строку подключения к pq в файле wails_app/database/database.go
+-  Создать таблицу из файла 1.initial_tables.sql
 ```bash
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 git clone https://github.com/beginore/test_to_do_list.git
-cd wails-todoapp
+cd wails_app
 wails dev
 ```
