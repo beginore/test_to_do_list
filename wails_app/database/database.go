@@ -7,6 +7,7 @@ import (
 )
 
 func NewPostgresDB() (*sql.DB, error) {
+	//Change conn str when testing
 	connStr := "user=postgres dbname=todos password=postgres host=localhost port=5432 sslmode=disable"
 
 	db, err := sql.Open("postgres", connStr)
