@@ -34,3 +34,4 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 cd wails_app
 wails dev
 ```
+
